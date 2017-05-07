@@ -101,7 +101,13 @@
 	border-top: 0;
 	background: #fff;
 }
-#nav .nav-f-div .nav-f-ul .nav-jianshen div{
+/*#nav .nav-f-div .nav-f-ul .nav-jianshen div{
+	display: block;
+}*/
+.block{
+	display: block !important;
+}
+#nav .nav-f-div .nav-list:nth-of-type(2) .list-div{
 	display: block;
 }
 #nav .nav-f-div .nav-f-ul .list-div ul>a{
@@ -133,7 +139,10 @@
 #nav .nav-f-div .nav-list .list-div li>a{
 	color: black;
 	font-size: 14px;
-	padding:0 5px;
+	padding:0 8px;
+}
+#nav .nav-f-div .nav-list .list-div li>a:hover{
+	color: #7cc2e3;
 }
 #nav .nav-f-div .list-div .list-div-a{
 	color: black;
@@ -166,6 +175,10 @@
 	border-right: 5px solid transparent;
 	border-bottom: 5px solid #fff;
 }
+#nav .nav-f-div .nav-f-ul .sanjiao{
+	display: block;
+}
+
 #nav .nav-f-div .nav-list .nav-transform{
 	display: inline-block;
     width: 0;
@@ -224,14 +237,23 @@
 	line-height: 19.5px;
 	cursor: pointer;
 }
+#nav .nav-t-div .mysjs:hover span{
+	transform: rotate(180deg);
+}
 #nav .nav-t-div .mysjs span{
 	float: right;
+	width: 0;
+	height: 0;
+	line-height: 0;
+	overflow: hidden;
+	font-size: 0;
 	margin-top: 8px;
 	margin-left: 3px;
 	border-top: 4px solid #ffffff;
 	border-left: 4px solid transparent;
 	border-right: 4px solid transparent;
-	border-bottom: 4px solid transparent;	
+	border-bottom: 0 none;
+	transition: transform 0.2s ease 0s;
 }
 
 /*导航栏下部详细信息*/
@@ -1242,19 +1264,17 @@ background-image: url(//www.dpfile.com/t/cssnew/newhome/sprites/global.28b8ff117
 } 
 #introduce  .introduce-ul>li:first-child  li:last-of-type{
 	color: #f39800;
+	margin-top: 12px
 }
 
 
 #introduce  .introduce-ul>li>ul>li{
 	font-size: 12px;
+	margin-top: 5px;
 }
 /*第二行li*/
 #introduce .introduce-ul>li{
 	border-right: 1px solid #d7d4d4;
-}
-
-#introduce .introduce-ul .sy-sjsjs-tli li{
-	margin-bottom: 5px;
 }
 
 #introduce .introduce-ul .sy-two ul{

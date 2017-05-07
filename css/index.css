@@ -669,8 +669,11 @@
 	letter-spacing: 0.5px;
 	display: inline-block;
 	margin-top: 16px;
-	display: inline-block;
 	text-indent: -6px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 100%;
 }
 
 /*店铺详情介绍*/
@@ -749,9 +752,7 @@
 }
 
 /*二手卡详细城区部分  边框*/
-/*#second .content-county ul{
-	border-top: 1px solid red;
-}*/
+
 
 /*二手卡详细信息*/
 
@@ -929,6 +930,9 @@
 	color: #3e3a39;
 	margin-top: 10px;
 	margin-bottom: 5px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 }
 #train .train-v .train-v-c>div .train-v-mone-ptwo{
 	font-size: 11px;
@@ -948,8 +952,7 @@
 	color: #706e6d;
 	float: right;
 	margin-top: 4px;
-	/*-webkit-transform:scale(0.8);*/
-	/*font-size:9px；*/
+
 }
 
 /*培训健身的副本*/

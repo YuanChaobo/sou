@@ -22,3 +22,8 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 .span-money,.unm,.money{
 	font-family: arial,sans-serif;
 }
+h1,h2,h3,h4,h5,h6{
+	font-family: "Hiragino Sans GB"," Microsoft YaHei","WenQuanYi Micro Hei",arial,sans-serif;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+}
