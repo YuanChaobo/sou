@@ -29,7 +29,6 @@ $(function(){
 
 	// 导航hover
 	$('#nav .nav-list').hover(function(){
-		// console.log('sss');
 		$(this).children('.list-div').css('display','block').siblings('a').children('i').css('display','block');
 	},function(){
 		$(this).children('div').css('display','none').siblings('a').children('i').css('display','none');
@@ -54,21 +53,32 @@ $(function(){
 	}
 	);
  	
- 	// 小箭头位置
+ 	// table菜单加箭头样式
 	$('#content').find('.first-nav li').on('click',function(){
 		var wh=$(this).width()/2-10+'px';
 		$(this).find('i').css({
 			left:wh,
 			display:'block'
 		}).parent('li').siblings('li').find('i').css('display','none');
-	});
 
+		var b =$(this).index();
+		$(this).parents('.tablemain').find('.parentdiv-div').eq(b).show().siblings().hide();
+		console.log()
+	});
+	// 移动定位
 	$(window).scroll(function(){
-		// console.log($('body').scrollTop());
 		if($('body').scrollTop()>543){
 			$("#nav-left").css("position","fixed");
 		}else{
 			$("#nav-left").css("position","absolute");
 		}
+	})
+	// 点击返回顶部
+	$('#nav-left').find('li').last().on('click',function(){
+		console.log('sss');
+		// $('body,html').scrollTop(0);
+		$('body,html').animate({
+			'scrollTop':'0',
+		},250)
 	})
 })
