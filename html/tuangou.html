@@ -8,12 +8,12 @@
 	<link rel="stylesheet" type="text/css" href="../css/swiper-3.4.2.min.css">
 	<script type="text/javascript" src="../js/jquery-1.11.2.js"></script>
 	<script type="text/javascript" src="../js/tuangou.js"></script>
-	<script type="text/javascript" src="../js/lanjiazai.js"></script>
+	<!-- <script type="text/javascript" src="../js/lazyload.js"></script> -->
 </head>
 <body>
 	<div id="head">
 		<div class="head-div">
-			<a href="../index.html">
+			<a target="_parent" href="../index.html">
 				<img src="../images/logo.png">
 			</a>
 			<ul>
@@ -28,7 +28,7 @@
 	<div id="nav">
 		<div class="nav-f-div">
 			<ul class="nav-f-ul">
-				<li class="nav-first"><a href="../index.html">首页</a></li>
+				<li class="nav-first"><a target="_parent" href="../index.html">首页</a></li>
 				<li class="nav-list nav-jianshen">
 					<a href="##" class="nav-list-a">健身 
 						<span class="nav-transform"></span>
@@ -417,7 +417,7 @@
 					<ul>
 						<li class="tg-classify-hot">
 							<div class="tg-hot-div">
-								<dl>
+								<dl class="tg-hot-ondl">
 									<dt>
 										<i class="ico"></i>
 										<span>热门分类</span>
@@ -441,15 +441,12 @@
 										<a href="##">户外徒手训练营</a>
 									</dd>
 								</dl>
-								<a href="##" class="more">
-									<span>更多</span>
-									<b class="ico"></b>
-								</a>
+								
 							</div>
 						</li>
 						<li class="tg-classify-spot">
 							<div class="tg-hot-div">
-								<dl>
+								<dl class="tg-hot-gddl">
 									<dt>
 										<i class="ico"></i>
 										<a href="##">全部区域</a>
@@ -502,19 +499,16 @@
 									<dd>
 										<a href="##">石景山区</a>
 									</dd>
-									<dd>
-										<a href="##">石景山区</a>
-									</dd>
 								</dl>
 								<a href="##" class="more">
-									<span>更多</span>
+									更多
 									<b class="ico"></b>
 								</a>
 							</div>
 						</li>
 						<li class="tg-classify-business">
 							<div class="tg-hot-div">
-								<dl>
+								<dl class="tg-hot-ondl">
 									<dt>
 										<i class="ico"></i>
 										<span>热门商区</span>
@@ -544,10 +538,7 @@
 										<a href="##">十里堡</a>
 									</dd>
 								</dl>
-								<a href="##" class="more">
-									<span>更多</span>
-									<b class="ico"></b>
-								</a>
+								
 							</div>
 						</li>
 					</ul>

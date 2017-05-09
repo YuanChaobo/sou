@@ -632,61 +632,83 @@ background-image: url(//www.dpfile.com/t/cssnew/newhome/sprites/global.28b8ff117
 	width: 660px;
 	border-bottom: 1px solid #eaeaea;
 }
-#categories #tg-fl .tg-jutifenlei .tg-tgfl li div{
-	background:#fff;
-	height: 27px;
-	margin:0 -9px 0 102px;
-	padding: 0;
+#categories .tg-jutifenlei .tg-tgfl li .tg-hot-div{
+    margin: 0 -9px 0 102px;
+    background-color: #fff;
+    padding: 0;
+    zoom: 1;
+    height: 27px;
+    overflow: hidden;
+    margin-left: 0;
+    padding-left: 102px;
+    z-index: 970;
+    position: relative;
+    margin-bottom: -100%;
+}
+#categories .tg-jutifenlei .tg-tgfl li .on{
+	overflow: visible;
+	height: auto;
+	position: relative;
 	zoom:1;
-	margin-left: 9px;
-	background:#fff;
-	overflow: hidden;
-	padding-left: 102px;
-	position: relative;
-
+	z-index: 1000;
+	box-shadow: 1px 1px 1px #f7f7f7;
+	padding:6px 0;
+	border:1px solid #eaeaea;
+	margin:-7px -10px 0 101px;
+	background: #fff;
 }
-#categories #tg-fl .tg-jutifenlei .tg-tgfl li .tg-hot-div dl{
-	position: relative;
-	float: left;
+#categories .tg-jutifenlei .tg-tgfl .tg-hot-div dl{
 	margin-left: 0;
-	width: 500px;
-}
-#categories #tg-fl .tg-jutifenlei .tg-tgfl li .tg-hot-div dl dt{
-	position: absolute;
-	width: 101px;
-	top: 0;
-	left: -101px;
-}
-#categories #tg-fl .tg-jutifenlei .tg-tgfl li .tg-hot-div dl dd{
-	display: inline-block;
-	font-size: 12px;
 	line-height: 27px;
-	margin-left: 14px;
-	white-space: nowrap;
+    position: relative;
+    float: left;
+    width: 550px;
+    z-index: 960;
 }
-#categories #tg-fl .tg-jutifenlei .tg-tgfl li .tg-hot-div .more{
-    float: right;
-	color: #333;
+#categories .tg-jutifenlei .tg-tgfl .tg-hot-div .tg-hot-gddl{
+	width: 513px;
+}
+#categories .tg-jutifenlei .tg-tgfl .tg-hot-div dl dt{
+
+	position: absolute;
+    height: 27px;
+    width: 101px;
+    left: -101px;
+    top: 0;
+    line-height: 27px;
+    font-size: 14px;
+    border-right: 1px solid #eaeaea;
+}
+#categories .tg-jutifenlei .tg-tgfl .tg-hot-div dl dd{
 	font-size: 12px;
-    width: 50px;
-    padding-left: 14px;
+    display: inline-block;
+    white-space: nowrap;
+    line-height: 27px;
+    margin-left: 14px;
+}
+
+#categories .tg-jutifenlei .tg-tgfl li .tg-hot-div .more{
+	color: #666;
+	font-size: 12px;
+	color: #333;
+    text-decoration: none;
+    float: right;
+    width: 40px;
     display: block;
     text-align: left;
-    height: 27px;
-    line-height: 27px;
-}
-#categories #tg-fl .tg-jutifenlei .tg-tgfl li .tg-hot-div .more:hover{
-	color: #0cc2a9;
+    line-height: 28px;
+   height: 27px;
 }
 #categories #tg-fl .tg-jutifenlei .tg-tgfl li .tg-hot-div .more b{
-	display: inline-block;
-	float: right;
-	width: 7px;
-	height: 4px;
-	margin-top: 11px;
-	background-position:-5px -5px;
-	background-repeat: no-repeat;
-	margin-left: 3px;
+    background-position: -5px -5px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    display: block;
+    width: 7px;
+    height: 4px;
+    display: inline-block!important;
+    vertical-align: middle;
+    margin-left: 3px;
     padding-bottom: 2px;
     transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
@@ -704,7 +726,7 @@ background-image: url(//www.dpfile.com/t/cssnew/newhome/sprites/global.28b8ff117
     -o-transition: -o-transform .2s linear;
 }
 #categories #tg-fl .tg-jutifenlei .tg-tgfl li .tg-hot-div .more:hover b{
-	transform: rotate(180deg);
+	transform: rotate(-180deg);
 
 }
 #categories #tg-fl .tg-tgfl .tg-classify-hot .tg-hot-div dl dt i{

@@ -9,9 +9,6 @@ $(function(){
 			$(this).find('.list-div').css({
 				'display':'block',
 			});
-			// .parents('.nav-list').siblings('.nav-list').find('.list-div').css({
-			// 	'display':'none',
-			// })
 		},function(){
 			$(this).find('i').removeClass('sanjiao');
 			$(this).find('.list-div').css('display','none');
@@ -26,25 +23,17 @@ $(function(){
 			$(this).css('border-right','1px solid #eaeaea').children(".tg-nav-submenu").css('display','none');
 		}
 	);
-
+	// github
 	$('.tg-jutifenlei').find('.more').hover(
 		function(){
-			$(this).parents('.tg-classify-spot').find('.tg-hot-div').css({
-				'overflow':'visible',
-			}).find('dl').css({
-				'border':'1px solid red',
-				'background':'#fff',
-				'z-index':'1000',
-			})
-		},
-		function(){
-			$(this).parents('.tg-classify-spot').find('.tg-hot-div').css({
-				'overflow':'hidden',
-			}).find('dl').css({
-				"border":'none',
-				'z-index':'100',
-			})
-			console.log($(this).parents('.tg-classify-spot').find('.tg-hot-div'));
+			console.log('sss');
+			$(this).parents('.tg-hot-div').addClass('on');
+		},function(){
+
 		}
 	)
+	$('.tg-jutifenlei').find('.tg-hot-gddl').on('mouseover',function(){
+		$(this).removeClass('on');
+		console.log('abc');
+	})
 })
