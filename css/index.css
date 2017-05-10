@@ -215,7 +215,9 @@
     color: #fff;
 	transition: all 0.2s ease 0s;
 }
-
+#nav .nav-f-div .nav-f-ul>li>a:hover{
+	background:#2b69aa;
+}
 #nav .nav-f-div .nav-f-ul .nav-first{
 	padding:0 8px;
 	background: #2b69aa;
@@ -456,8 +458,8 @@
 	width: 223px;
 	font-size: 15px;
 	line-height: 42px;
-	background: #209dd9;
-	border-left:8px solid #209dd9;
+	background: #0088d3;
+	border-left:8px solid #0088d3;
 }
 #carousel #carousel-position .position-li>a{
 	cursor: pointer;
@@ -494,6 +496,9 @@
 	position: relative;
 	margin-left: 7px;
 	font-size: 13px;
+}
+#carousel #carousel-position .apparatus ul>li a:hover{
+	color: #0088d3;
 }
 #carousel #carousel-position .apparatus .apparatus-div{
 	position: absolute;
@@ -586,15 +591,15 @@
 
 #content .parentdiv .parentdiv-div-city li a{
     padding: 2px 7px;
-	color: #209dd9;
+	color: #0088d3;
 	border-radius: 3px;
 }
 #content .parentdiv .parentdiv-div-city .cobfff a{
-	background: #209dd9;
+	background: #0088d3;
 	color: #fff;
 }
 #content .parentdiv .parentdiv-div-city li a:hover{
-	background: #209dd9;
+	background: #0088d3;
 	color: #fff;
 }
 
@@ -682,7 +687,7 @@
 #content .first-nav .currency {
 	height: 38px;
 	line-height: 36px;
-	border-bottom: 2px solid #209dd9;
+	border-bottom: 2px solid #0088d3;
 	margin-top: 32px;
 }
 #content .first-nav>span{
@@ -692,7 +697,7 @@
 }
 #content .first-nav>span a{
 	font-size: 14px;
-	color: #209dd9;
+	color: #0088d3;
 }
 
 #content .first-nav .currency li{
@@ -703,6 +708,9 @@
 	margin-right: 23px;
 	cursor: pointer;
 } 
+#content .first-nav .currency li:hover{
+	color: #0088d3;
+}
 #content  .first-nav .currency .sanjiao{
 	position: absolute;
 	bottom: 0px;
@@ -883,7 +891,13 @@
 /*鼠标经过图片放大*/
 #train .train-v-c .train-video .train-video-img{
 	width: 100%;
-	transition: all 0.5s;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    z-index: 40;
 }
 #train .train-v-c .train-video-img:hover{
 	transform: scale(1.05);
@@ -902,6 +916,9 @@
     height: 35px;
     background: url("../images/play-back.png") -35px 0;
     pointer-events: auto;
+    position: absolute;
+    right: 0;
+    z-index: 45;
 }
 #train .train-v-c  .train-v-mone{
 	padding-left: 10px;
@@ -1249,6 +1266,6 @@
     background: #fff;
 }
 #nav-left li .linkbp-b{
-	background: #209dd9;
+	background: #0088d3;
 	z-index: 3;
 }

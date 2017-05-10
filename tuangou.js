@@ -23,18 +23,17 @@ $(function(){
 			$(this).css('border-right','1px solid #eaeaea').children(".tg-nav-submenu").css('display','none');
 		}
 	);
-	
-	
-	$('.tg-jutifenlei').find('.more').on('mouseover',function(){
-		$(this).parents('.tg-hot-div').addClass('onb');
-		$('.tg-hot-div').eq(1).on('mouseover',function(){
-			$(this).addClass('onb');
-		});
-		$('.tg-hot-div').eq(1).on('mouseout',function(){
-			$(this).removeClass('onb');
-			document.getElementsByClassName('tg-hot-div')[1].onmouseover=null;
-			console.log(document.getElementsByClassName('more'));
-		});
-	});
+	// github
+	$('.tg-jutifenlei').find('.more').hover(
+		function(){
+			console.log('sss');
+			$(this).parents('.tg-hot-div').addClass('on');
+		},function(){
 
+		}
+	)
+	$('.tg-jutifenlei').find('.tg-hot-gddl').on('mouseover',function(){
+		$(this).removeClass('on');
+		console.log('abc');
+	})
 })

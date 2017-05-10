@@ -428,6 +428,7 @@
 	float: right;
 	background: #ff9a14;
 	cursor: pointer;
+	color: #fff;
 }
 #dingwei .tuikuan{
 	float: right;
@@ -645,9 +646,10 @@ background-image: url(//www.dpfile.com/t/cssnew/newhome/sprites/global.28b8ff117
     position: relative;
     margin-bottom: -100%;
 }
-#categories .tg-jutifenlei .tg-tgfl li .on{
+#categories .tg-jutifenlei .tg-tgfl li .onb{
 	overflow: visible;
 	height: auto;
+	min-height:70px;
 	position: relative;
 	zoom:1;
 	z-index: 1000;
@@ -686,7 +688,9 @@ background-image: url(//www.dpfile.com/t/cssnew/newhome/sprites/global.28b8ff117
     line-height: 27px;
     margin-left: 14px;
 }
-
+#categories .tg-jutifenlei .tg-tgfl .tg-hot-div dl dd a:hover{
+	color: #0f7ab5;
+}
 #categories .tg-jutifenlei .tg-tgfl li .tg-hot-div .more{
 	color: #666;
 	font-size: 12px;

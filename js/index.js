@@ -44,7 +44,7 @@ $(function(){
 		var c=a.substring(0,b);
 		$(this).children('span').find('img').attr('src',c+='1.gif');
 	},function(){
-		$(this).css({'background':'#209dd9','border-color':'#209dd9'}).children('.apparatus').css('display','none');
+		$(this).css({'background':'#0088d3','border-color':'#0088d3'}).children('.apparatus').css('display','none');
 		$(this).children('a').css({'color':'#ffffff'});
 		var a=$(this).children('span').find('img').attr('src');
 		var b =a.lastIndexOf('1');
