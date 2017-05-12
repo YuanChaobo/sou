@@ -7,11 +7,13 @@
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" type="text/css" href="./css/reset.css">
 	<link rel="stylesheet" href="css/swiper-3.4.2.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/iconfont.css">
 </head>
 <body>
 	<div id="header">
 		<div class="header_box">
-				<a target="_self" href="#top"><img src="./images/logo.png"></a>
+				<a target="_self" href="#top" class="header-box-a">
+				</a>
 			<div class="header-city">
 				<span>石家庄</span>
 				<i></i>
@@ -307,7 +309,9 @@
 		<div  id="carousel-position">
 			<ul>
 				<li class="position-li">
-					<span class="background-1"><img src="./images/jsqc.jpg"></span>
+					<span class="iconfont icon-jianshenqicai">
+						<!-- <img src="./images/jsqc.jpg"> -->
+					</span>
 					<a href="##">健身器材 / 配件 <span></span></a>
 					<div class="apparatus">
 						<!-- 商用健身 -->
@@ -407,7 +411,7 @@
 					</div>
 				</li>
 				<li  class="position-li">
-					<span class="background-2"><img src="./images/jlb.jpg"></span>
+					<span class="iconfont icon-jianshen1"></span>
 					<a href="##">俱乐部用品 / 配套设施</a>
 					<div class="apparatus">
 						<!-- 商用健身 -->
@@ -507,7 +511,7 @@
 					</div>
 				</li>
 				<li class="position-li">
-					<span class="background-3"><img src="./images/ydjs.jpg"></span>
+					<span class="iconfont icon-health"></span>
 					<a href="##">运动健身 / 营养食品</a>
 					<div class="apparatus">
 						<!-- 商用健身 -->
@@ -607,7 +611,7 @@
 					</div>
 				</li>
 				<li class="position-li">
-					<span class="background-4"><img src="./images/znjkcp.jpg"></span>
+					<span class="iconfont icon-jiankang2"></span>
 					<a href="##">智能健康产品 / 软件服务</a>
 					<div class="apparatus">
 						<!-- 商用健身 -->
@@ -707,7 +711,7 @@
 					</div>
 				</li>
 				<li class="position-li">
-					<span class="background-5"><img src="./images/ydxf.jpg"></span>
+					<span class="iconfont icon-shoushen"></span>
 					<a href="##">运动鞋服 / 配饰/护具</a>
 					<div class="apparatus">
 						<!-- 商用健身 -->
@@ -807,7 +811,7 @@
 					</div>
 				</li>
 				<li class="position-li">
-					<span class="background-6"><img src="./images/yjwd.jpg"></span>
+					<span class="iconfont icon-yuqie"></span>
 					<a href="##">瑜伽 / 舞蹈用品</a>
 					<div class="apparatus">
 						<!-- 商用健身 -->
@@ -907,8 +911,8 @@
 					</div>
 				</li>
 				<li class="position-li">
-					<span class="background-7"><img src="./images/jspx.jpg"></span>
-					<a href="##">健身培训</a>
+					<span class="iconfont icon-tiyuzhuanhuan"></span>
+					<a href="##">体育用品</a>
 					<div class="apparatus">
 						<!-- 商用健身 -->
 						<div class="shangyongjianshen">
@@ -1019,37 +1023,368 @@
 				<!-- 黄色大提示字 -->
 				<h3>搜健身 <span></span></h3>
 				<ul class="currency">
-				<li>全部 <i class="sanjiao"></i></li>
-					<li>健身房 • 游泳 <i class="sanjiao"></i></li>
-					<li>瑜伽 • 舞蹈馆 <i class="sanjiao"></i></li>
+					<li class="currency-all">全部 <i class="sanjiao"></i></li>
+					<li>健身+游泳健身 <i class="sanjiao"></i></li>
+					<li>瑜伽+舞蹈馆 <i class="sanjiao"></i></li>
 					<li>私教工作室 <i class="sanjiao"></i></li>
 					<li>武术馆 <i class="sanjiao"></i></li>
 					<li>休闲健身 <i class="sanjiao"></i></li>
-					<li>球类运动 <i class="sanjiao"></i></li>
+					<li>球类健身 <i class="sanjiao"></i></li>
 					<li>体育场馆 <i class="sanjiao"></i></li>
 					<li>儿童运动中心 <i class="sanjiao"></i></li>
 				</ul>
 				<span><a href="##">更多 &gt;</a></span>
 				<!--  -->
 			</div>
-			<!-- 第二行导航栏 具体城区-->
-			<div class="content-county">
-				<ul>
-					<li><a href="##" class="back-blue">全部</a></li>
-					<li><a href="##">桥东区</a></li>
-					<li><a href="##">长安区</a></li>
-					<li><a href="##">桥西区</a></li>
-					<li><a href="##">裕华区</a></li>
-					<li><a href="##">新华区</a></li>
-					<li><a href="##">开发区</a></li>
-					<li><a href="##">藁城区</a></li>
-					<li><a href="##">正定县</a></li>
-					<li><a href="##">鹿泉市</a></li>
-					<li><a href="##">井 矿区</a></li>
-					<li><a href="##">石家庄周边</a></li>
-				</ul>
+
+			<div class="parentdiv parentdiv-soujianshen">
+					<!-- 全部 -->
+					<div class="parentdiv-div">
+						<div class="parentdiv-div-city">
+							<ul>
+								<li class="parentdiv-abc-li cobfff">
+									<a href="##">全部</a>
+								</li>
+								<li class="parentdiv-abc-li">
+									<a href="##">桥东区</a>
+								</li>
+								<li class="parentdiv-abc-li">
+									<a href="##">长安区</a>
+								</li>
+								<li class="parentdiv-abc-li">
+									<a href="##">桥西区</a>
+								</li>
+								<li class="parentdiv-abc-li">
+									<a href="##">裕华区</a>
+								</li>
+								<li class="parentdiv-abc-li">
+									<a href="##">新华区</a>
+								</li>
+								<li class="parentdiv-abc-li">
+									<a href="##">开发区</a>
+								</li>
+								<li class="parentdiv-abc-li">
+									<a href="##">栾城区</a>
+								</li>
+								<li class="parentdiv-abc-li">
+									<a href="##">正定县</a>
+								</li>
+								<li class="parentdiv-abc-li">
+									<a href="##">鹿泉区</a>
+								</li>
+								<li class="parentdiv-abc-li">
+									<a href="##">井陉矿区</a>
+								</li>
+								<li class="parentdiv-abc-li">
+									<a href="##">石家庄周边</a>
+								</li>
+							</ul>
+							<!-- 搜健身全部 -->
+							<div class="soujianshen-qb">
+								<div class="soujianshen-qb-quanbu">
+									<ul>
+										<li class="soujianshen-quanbu">
+											<div class="soujianshen-quanbud">
+												<a href="##" class="soujianshen-quanbud-img">
+													<img src="./images/natieyouyongjianshen.jpg">
+												</a>
+												<div class="soujianshen-jsfmc">
+													<a href="##">拿铁健身</a>
+													<span></span>
+												</div>
+												<div class="soujianshen-jsfdz-mo">
+													<span class="jsfdz-mo-zs">
+														<img src="./images/zuanshibiao.png">
+													</span>
+													<span class="jsfdz-mo-dizhi">槐安西、西二环地区</span>
+													<div class="jsfdz-mo-qi money">
+														<dfn class="jsfdz-mo-spanone">￥</dfn>
+														330
+														<span class="jsfdz-mo-spanthree">起</span>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="soujianshen-quanbu">
+											<div class="soujianshen-quanbud">
+												<a href="##" class="soujianshen-quanbud-img">
+													<img src="./images/natieyouyongjianshen.jpg">
+												</a>
+												<div class="soujianshen-jsfmc">
+													<a href="##">拿铁健身</a>
+													<span></span>
+												</div>
+												<div class="soujianshen-jsfdz-mo">
+													<span class="jsfdz-mo-zs">
+														<img src="./images/zuanshibiao.png">
+													</span>
+													<span class="jsfdz-mo-dizhi">槐安西、西二环地区</span>
+													<div class="jsfdz-mo-qi money">
+														<dfn class="jsfdz-mo-spanone">￥</dfn>
+														330
+														<span class="jsfdz-mo-spanthree">起</span>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="soujianshen-quanbu">
+											<div class="soujianshen-quanbud">
+												<a href="##" class="soujianshen-quanbud-img">
+													<img src="./images/natieyouyongjianshen.jpg">
+												</a>
+												<div class="soujianshen-jsfmc">
+													<a href="##">拿铁健身</a>
+													<span></span>
+												</div>
+												<div class="soujianshen-jsfdz-mo">
+													<span class="jsfdz-mo-zs">
+														<img src="./images/zuanshibiao.png">
+													</span>
+													<span class="jsfdz-mo-dizhi">槐安西、西二环地区</span>
+													<div class="jsfdz-mo-qi money">
+														<dfn class="jsfdz-mo-spanone">￥</dfn>
+														330
+														<span class="jsfdz-mo-spanthree">起</span>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="soujianshen-quanbu">
+											<div class="soujianshen-quanbud">
+												<a href="##" class="soujianshen-quanbud-img">
+													<img src="./images/natieyouyongjianshen.jpg">
+												</a>
+												<div class="soujianshen-jsfmc">
+													<a href="##">拿铁健身</a>
+													<span></span>
+												</div>
+												<div class="soujianshen-jsfdz-mo">
+													<span class="jsfdz-mo-zs">
+														<img src="./images/zuanshibiao.png">
+													</span>
+													<span class="jsfdz-mo-dizhi">槐安西、西二环地区</span>
+													<div class="jsfdz-mo-qi money">
+														<dfn class="jsfdz-mo-spanone">￥</dfn>
+														330
+														<span class="jsfdz-mo-spanthree">起</span>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="soujianshen-quanbu">
+											<div class="soujianshen-quanbud">
+												<a href="##" class="soujianshen-quanbud-img">
+													<img src="./images/natieyouyongjianshen.jpg">
+												</a>
+												<div class="soujianshen-jsfmc">
+													<a href="##">拿铁健身</a>
+													<span></span>
+												</div>
+												<div class="soujianshen-jsfdz-mo">
+													<span class="jsfdz-mo-zs">
+														<img src="./images/zuanshibiao.png">
+													</span>
+													<span class="jsfdz-mo-dizhi">槐安西、西二环地区</span>
+													<div class="jsfdz-mo-qi money">
+														<dfn class="jsfdz-mo-spanone">￥</dfn>
+														330
+														<span class="jsfdz-mo-spanthree">起</span>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="soujianshen-quanbu">
+											<div class="soujianshen-quanbud">
+												<a href="##" class="soujianshen-quanbud-img">
+													<img src="./images/natieyouyongjianshen.jpg">
+												</a>
+												<div class="soujianshen-jsfmc">
+													<a href="##">拿铁健身</a>
+													<span></span>
+												</div>
+												<div class="soujianshen-jsfdz-mo">
+													<span class="jsfdz-mo-zs">
+														<img src="./images/zuanshibiao.png">
+													</span>
+													<span class="jsfdz-mo-dizhi">槐安西、西二环地区</span>
+													<div class="jsfdz-mo-qi money">
+														<dfn class="jsfdz-mo-spanone">￥</dfn>
+														330
+														<span class="jsfdz-mo-spanthree">起</span>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="soujianshen-quanbu">
+											<div class="soujianshen-quanbud">
+												<a href="##" class="soujianshen-quanbud-img">
+													<img src="./images/natieyouyongjianshen.jpg">
+												</a>
+												<div class="soujianshen-jsfmc">
+													<a href="##">拿铁健身</a>
+													<span></span>
+												</div>
+												<div class="soujianshen-jsfdz-mo">
+													<span class="jsfdz-mo-zs">
+														<img src="./images/zuanshibiao.png">
+													</span>
+													<span class="jsfdz-mo-dizhi">槐安西、西二环地区</span>
+													<div class="jsfdz-mo-qi money">
+														<dfn class="jsfdz-mo-spanone">￥</dfn>
+														330
+														<span class="jsfdz-mo-spanthree">起</span>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="soujianshen-quanbu">
+											<div class="soujianshen-quanbud">
+												<a href="##" class="soujianshen-quanbud-img">
+													<img src="./images/natieyouyongjianshen.jpg">
+												</a>
+												<div class="soujianshen-jsfmc">
+													<a href="##">拿铁健身</a>
+													<span></span>
+												</div>
+												<div class="soujianshen-jsfdz-mo">
+													<span class="jsfdz-mo-zs">
+														<img src="./images/zuanshibiao.png">
+													</span>
+													<span class="jsfdz-mo-dizhi">槐安西、西二环地区</span>
+													<div class="jsfdz-mo-qi money">
+														<dfn class="jsfdz-mo-spanone">￥</dfn>
+														330
+														<span class="jsfdz-mo-spanthree">起</span>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="soujianshen-quanbu">
+											<div class="soujianshen-quanbud">
+												<a href="##" class="soujianshen-quanbud-img">
+													<img src="./images/natieyouyongjianshen.jpg">
+												</a>
+												<div class="soujianshen-jsfmc">
+													<a href="##">拿铁健身</a>
+													<span></span>
+												</div>
+												<div class="soujianshen-jsfdz-mo">
+													<span class="jsfdz-mo-zs">
+														<img src="./images/zuanshibiao.png">
+													</span>
+													<span class="jsfdz-mo-dizhi">槐安西、西二环地区</span>
+													<div class="jsfdz-mo-qi money">
+														<dfn class="jsfdz-mo-spanone">￥</dfn>
+														330
+														<span class="jsfdz-mo-spanthree">起</span>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li class="soujianshen-quanbu">
+											<div class="soujianshen-quanbud">
+												<a href="##" class="soujianshen-quanbud-img">
+													<img src="./images/natieyouyongjianshen.jpg">
+												</a>
+												<div class="soujianshen-jsfmc">
+													<a href="##">拿铁健身</a>
+													<span></span>
+												</div>
+												<div class="soujianshen-jsfdz-mo">
+													<span class="jsfdz-mo-zs">
+														<img src="./images/zuanshibiao.png">
+													</span>
+													<span class="jsfdz-mo-dizhi">槐安西、西二环地区</span>
+													<div class="jsfdz-mo-qi money">
+														<dfn class="jsfdz-mo-spanone">￥</dfn>
+														330
+														<span class="jsfdz-mo-spanthree">起</span>
+													</div>
+												</div>
+											</div>
+										</li>
+									</ul>
+								</div>
+								<!-- 桥东区 -->
+								<div class="soujianshen-qb-quanbu">
+									桥东区
+								</div>
+								<!-- 长安区 -->
+								<div class="soujianshen-qb-quanbu">
+									长安区
+								</div>
+									<!-- 桥西区 -->
+								<div class="soujianshen-qb-quanbu">
+									桥西区
+								</div>
+									<!-- 裕华区 -->
+								<div class="soujianshen-qb-quanbu">
+									雨花区
+								</div>
+								<!-- 新华区 -->
+								<div class="soujianshen-qb-quanbu">
+									新华区
+								</div>
+								<!-- 开发区 -->
+								<div class="soujianshen-qb-quanbu">
+									开发区
+								</div>
+								<!-- 栾城区 -->
+								<div class="soujianshen-qb-quanbu">
+									栾城区
+								</div>
+								<!-- 正定县 -->
+								<div class="soujianshen-qb-quanbu">
+									正定区
+								</div>
+								<!-- 鹿泉区 -->
+								<div class="soujianshen-qb-quanbu">
+									鹿泉区
+								</div>
+								<div class="soujianshen-qb-quanbu">
+									井陉矿区
+								</div>
+								<div class="soujianshen-qb-quanbu">
+									井陉矿区1
+								</div>
+							</div>
+						</div>	
+						
+					</div>
+					<!-- 健身游泳馆 -->
+					<div class="parentdiv-div">
+						jianshenyouyongguan
+					</div>
+					<!-- 瑜伽武道馆 -->
+					<div class="parentdiv-div">
+						yujiawudaoguan
+					</div>
+					<!-- 私教工作室 -->
+					<div class="parentdiv-div">
+						私教工作室
+					</div>
+					<!-- 武术馆 -->
+					<div class="parentdiv-div">
+						武术馆
+					</div>
+					<!-- 休闲健身 -->
+					<div class="parentdiv-div">
+						休闲健身
+					</div>
+					<!-- 球类运动 -->
+					<div class="parentdiv-div">
+						球类运动
+					</div>
+					<!-- 体育场馆 -->
+					<div class="parentdiv-div">
+						体育场馆
+					</div>
+					<!-- 儿童运动中心 -->
+					<div class="parentdiv-div">
+						儿童运动中心
+					</div>
 			</div>
-		</div>
+		
 
 		<!-- 搜团购 -->
 		<div id="content-group" class="tablemain">
@@ -1075,40 +1410,40 @@
 				<div class="parentdiv-div">
 					<div class="parentdiv-div-city">
 						<ul>
-							<li class="cobfff">
+							<li class="parentdiv-abc-li cobfff">
 								<a href="##">全部</a>
 							</li>
-							<li>
+							<li  class="parentdiv-abc-li">
 								<a href="##">桥东区</a>
 							</li>
-							<li>
+							<li  class="parentdiv-abc-li">
 								<a href="##">长安区</a>
 							</li>
-							<li>
+							<li  class="parentdiv-abc-li">
 								<a href="##">桥西区</a>
 							</li>
-							<li>
+							<li  class="parentdiv-abc-li">
 								<a href="##">裕华区</a>
 							</li>
-							<li>
+							<li  class="parentdiv-abc-li">
 								<a href="##">新华区</a>
 							</li>
-							<li>
+							<li  class="parentdiv-abc-li">
 								<a href="##">开发区</a>
 							</li>
-							<li>
+							<li  class="parentdiv-abc-li">
 								<a href="##">栾城区</a>
 							</li>
-							<li>
+							<li  class="parentdiv-abc-li">
 								<a href="##">正定县</a>
 							</li>
-							<li>
+							<li  class="parentdiv-abc-li">
 								<a href="##">鹿泉区</a>
 							</li>
-							<li>
+							<li  class="parentdiv-abc-li">
 								<a href="##">井陉矿区</a>
 							</li>
-							<li>
+							<li  class="parentdiv-abc-li">
 								<a href="##">石家庄周边</a>
 							</li>
 						</ul>
@@ -2136,40 +2471,40 @@
 					<div class="parentdiv-div">
 						<div class="parentdiv-div-city">
 							<ul>
-								<li class="cobfff">
+								<li class="parentdiv-abc-li cobfff">
 									<a href="##">全部</a>
 								</li>
-								<li>
+								<li  class="parentdiv-abc-li">
 									<a href="##">桥东区</a>
 								</li>
-								<li>
+								<li  class="parentdiv-abc-li">
 									<a href="##">长安区</a>
 								</li>
-								<li>
+								<li  class="parentdiv-abc-li">
 									<a href="##">桥西区</a>
 								</li>
-								<li>
+								<li  class="parentdiv-abc-li">
 									<a href="##">裕华区</a>
 								</li>
-								<li>
+								<li  class="parentdiv-abc-li">
 									<a href="##">新华区</a>
 								</li>
-								<li>
+								<li class="parentdiv-abc-li" >
 									<a href="##">开发区</a>
 								</li>
-								<li>
+								<li  class="parentdiv-abc-li">
 									<a href="##">栾城区</a>
 								</li>
-								<li>
+								<li  class="parentdiv-abc-li">
 									<a href="##">正定县</a>
 								</li>
-								<li>
+								<li  class="parentdiv-abc-li">
 									<a href="##">鹿泉区</a>
 								</li>
-								<li>
+								<li  class="parentdiv-abc-li">
 									<a href="##">井陉矿区</a>
 								</li>
-								<li>
+								<li  class="parentdiv-abc-li">
 									<a href="##">石家庄周边</a>
 								</li>
 							</ul>
@@ -3025,45 +3360,58 @@
 					<ul>
 						<li>
 							<a href="##" class="linkbp linkbp-b">	
-								<img src="./images/tuan.jpg">
-					
-								<span>团购</span>
+								<!-- <img src="./images/tuan.jpg"> -->
+								<i class="iconfont icon-jian icon-fosize"></i>
+								<!-- <span>搜健身</span> -->
 							</a>
 						</li>
 						<li>
 							<a href="##" class="linkbp">	
-								<img src="./images/ershouka.jpg">
-								<span>二手卡</span>
+								<!-- <img src="./images/tuan.jpg"> -->
+								<i class="iconfont icon-tuan icon-fosize"></i>
+								<!-- <span>团购</span> -->
 							</a>
 						</li>
 						<li>
 							<a href="##" class="linkbp">	
-								<img src="./images/jianshenguwen.jpg">
-								<span>健身顾问</span>
+								<!-- <img src="./images/ershouka.jpg"> -->
+								<i class="iconfont icon-14 icon-fosize icon-size-i"></i>
+								<!-- <span>二手卡</span> -->
 							</a>
 						</li>
 						<li>
 							<a href="##" class="linkbp">	
-								<img src="./images/jianshenpeixun.jpg">
-								<span>健身培训</span>
+								<!-- <img src="./images/jianshenguwen.jpg"> -->
+								<i class="iconfont icon-guwen icon-fosize icon-size-i"></i>
+								<!-- <span>健身顾问</span> -->
 							</a>
 						</li>
 						<li>
 							<a href="##" class="linkbp">	
-								<img src="./images/huodong.jpg">
-								<span>活动</span>
+								<!-- <img src="./images/jianshenpeixun.jpg"> -->
+								<i class="iconfont icon-peixun icon-fosize icon-size-i"></i>
+								<!-- <span>健身培训</span> -->
+							</a>
+						</li>
+						<li>
+							<a href="##" class="linkbp">	
+								<!-- <img src="./images/huodong.jpg"> -->
+								<i class="iconfont icon-tubiao- icon-fosize icon-size-i"></i>
+								<!-- <span>活动</span> -->
 							</a>
 						</li>
 						<li>
 							<a href="##" class="linkbp">
-								<img src="./images/zhaopin.jpg">
-								<span>招聘</span>
+								<!-- <img src="./images/zhaopin.jpg"> -->
+								<i class="iconfont icon-zhaopin icon-fosize "></i>
+								<!-- <span>招聘</span> -->
 							</a>
 						</li>
 						<li>
 							<a href="##" class="linkbp">
-								<img src="./images/huidingbu.jpg">
-								<span>顶部</span>
+								<!-- <img src="./images/huidingbu.jpg"> -->
+								<i class="iconfont icon-shangsanjiao2 icon-size-i icon-size-ia"></i>
+								<!-- <span>顶部</span> -->
 							</a>
 						</li>
 					</ul>
@@ -3074,8 +3422,15 @@
 	<script type="text/javascript" src="./js/jquery-1.11.2.js"></script>
 	<script type="text/javascript" src='./js/index.js'></script>
 	<script type="text/javascript" src="./js/jquery.loadTemplate.min.js"></script>
-	<script type="text/javascript" src="./js/jquery.mousewheel.js"></script>
 	<script type="text/javascript" src="./js/swiper-3.4.2.min.js"></script>
-
+	<script type="text/javascript" src="./js/jquery.scrollstop.js"></script>
+	<script type="text/javascript" src="./js/jquery.lazyload.js"></script>
+	 <script type="text/javascript">
+      $(function() {
+          $("img.lazy").lazyload({
+              event: "scrollstop"
+          });
+      });
+  </script>
 </body>
 </html>

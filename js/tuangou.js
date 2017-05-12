@@ -27,14 +27,11 @@ $(function(){
 	
 	$('.tg-jutifenlei').find('.more').on('mouseover',function(){
 		$(this).parents('.tg-hot-div').addClass('onb');
-		$('.tg-hot-div').eq(1).on('mouseover',function(){
-			$(this).addClass('onb');
-		});
-		$('.tg-hot-div').eq(1).on('mouseout',function(){
+		$('.tg-hot-div').eq(1).on('mouseleave',function(){
 			$(this).removeClass('onb');
-			document.getElementsByClassName('tg-hot-div')[1].onmouseover=null;
-			console.log(document.getElementsByClassName('more'));
 		});
+		
 	});
+	
 
 })
