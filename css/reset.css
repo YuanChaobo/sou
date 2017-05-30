@@ -1,0 +1,34 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: '微软雅黑';
+}
+
+a{
+	text-decoration: none;
+	color: #666;
+	cursor: pointer;
+}
+img{
+	border:none;
+}
+ul,li{
+	list-style: none;
+}
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary{
+  display: block;
+}
+.span-money,.unm,.money{
+	font-family: arial,sans-serif;
+	font-size: 400;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: "Hiragino Sans GB"," Microsoft YaHei","WenQuanYi Micro Hei",arial,sans-serif;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+}
+.icon{
+		background:url('http://www.dpfile.com/t/cssnew/newhome/sprites/global.28b8ff1175abaac1bb77e0874cb5f8aa.png');
+}
