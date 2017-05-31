@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+.body-background{
+	background:#f6f4f4;
+}
 #header{
 	width: 100%;
 	padding: 10px 0;
@@ -624,32 +627,10 @@
 	right: 0px;
 	bottom: 2px;
 }
-
-
-
-
 #content{
 	width: 1207px;
 	margin: 33px auto 0;
 	position: relative;
-}
-
-
-#content .first-nav h3{
-	float: left;
-	color: #f39800;
-	font-size: 22px;
-	margin-right: 13px;
-	margin-top: 2px;
-}
-#content .first-nav h3 span{
-	float: right;
-	width: 6px;
-	height: 12px;
-	margin-left: 7px;
-	margin-top: 10px;
-	background: url(../images/yellowarrow.jpg) no-repeat right;
-	background-size: contain;
 }
 
 #content .parentdiv{
@@ -667,7 +648,7 @@
 	border:1px solid #dfe0e3;
 }
 #content .parentdiv-ershou{
-	height: 320px ;
+	height: 315px;
 }
 #content .parentdiv-jsgw{
 	height: 328px;
@@ -985,94 +966,120 @@
 
 /*抢二手卡*/
 
-#second{
-	margin-top: 32px;
-}
-/*??????????????Сͼ?궨λ*/
-#second .second-oritade{
-	position: relative;
-}
-#second .second-oritade .second-oritade-img{
-	position: absolute;
-	top: -4px;
-	right: -5px;
-}
-
-
-/*??????ϸ?Ϣ*/
-
-
-#second .second-ul{
+#second .parentdiv-ershou .qiangershouka-qb .second-ul{
 	overflow: hidden;
-	padding:0 13px 35px 10px;
-	
+	padding:0 13px;
 }
-#second .parentdiv .qiangershouka-qb{
-	height: 240px;
+#second .parentdiv-ershou .qiangershouka-qb .second-ul li{
+	float: left;
+	width: 16.6666%;
+	margin-bottom: 13px;
+}
+#second .parentdiv-ershou .qiangershouka-qb .second-ul li>div{
+	width: 186px;
+	margin:0 auto;
+	padding:3px 15px 10px;
+	background:#fff;
+}
+#second .parentdiv-ershou .qiangershouka-qb .second-ul li p{
+	font-size: 12px;
+	color: #868485;
+	margin-top: 5px;
+}
+#second .parentdiv-ershou .qiangershouka-qb .second-ul li .gymname{
+	font-size: 14px;
+	color: #3d3c3a;
 	overflow: hidden;
+	margin-top: 15px;
+}
+#second .parentdiv-ershou .qiangershouka-qb .second-ul li .gymname a{
+	display: inline-block;
+	float: left;
+	width: 135px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	color: black;
+}
+#second .parentdiv-ershou .qiangershouka-qb .second-ul li .gymname .mian1{
+	float: right;
+	width: 14px;
+	height:14px;
+	margin-top: 2px;
+	background: url("../images/mian1.gif") left no-repeat;
+	background-size: contain;
+}
+#second .parentdiv-ershou .qiangershouka-qb .second-ul li .gymmoney{
+	margin-top: 15px;
+}
+#second .parentdiv-ershou .qiangershouka-qb .second-ul li .gymmoney em{
+	font-style: normal;
+	font-weight: normal;
+	float: left;
+	transform: scale(0.80);
+    transform-origin:0 0;
+
+    -ms-transform: scale(0.80);      
+    -ms-transform-origin:0 0;       
+
+    -webkit-transform: scale(0.80); 
+    -webkit-transform-origin:0 0;   
+
+    -moz-transform: scale(0.8);     
+    -moz-transform-origin:0 0;    
+
+    -o-transform: scale(0.80);    
+    -o-transform-origin:0 0; 
+
+}
+#second .parentdiv-ershou .qiangershouka-qb .second-ul li .gymmoney .money{
+	font-size: 18px;
+	color: #ec5415;
+
+}
+#second .parentdiv-ershou .qiangershouka-qb .second-ul li .gymmoney i{
+	font-style: normal;
+	font-weight: normal;
+	vertical-align: -1px;
+	margin-left: -2px;
+	display: inline-block;
+     transform: scale(0.830);
+    transform-origin:0 0;
+
+    -ms-transform: scale(0.83);      
+    -ms-transform-origin:0 0;       
+
+    -webkit-transform: scale(0.83); 
+    -webkit-transform-origin:0 0;   
+
+    -moz-transform: scale(0.83);     
+    -moz-transform-origin:0 0;    
+
+    -o-transform: scale(0.83);    
+    -o-transform-origin:0 0;
+}
+#second .parentdiv-ershou .qiangershouka-qb .second-ul li .gymmoney>a{
+	float: right;
+	font-size: 13px;
+	width: 47px;
+	height: 22px;
+	line-height: 22px;
+	color: #fff;
+	letter-spacing: 4px;
+	background: #f5b82a;
+	padding-left: 9px;
+	margin-top: -3px;
+	border-radius: 3px;
+}
+#second .parentdiv-border{
 	border-left: 1px solid #c9c9ca;
 	border-right: 1px solid #c9c9ca;
 	border-bottom: 1px solid #e7e7e8;
 	border-top: 1px solid #e7e7e8;
 }
-#second .parentdiv .qiangershouka-qb .ershou-qb-quanbu{
-	height: 240px;
-
-}
-#second .second-ul li{
-	width: 16.6666%;
-	float: left;
-	margin:0 auto;
-	padding-top: 13px;
-}
-#second .second-ul>li .information{
-	width: 185px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 9px 15px;
-}
-#second .second-ul>li .information p{
-	width: 100%;
+#second .parentdiv .qiangershouka-qb{
+	height: 273px;
 	overflow: hidden;
-	white-space: nowrap;
-	text-overflow: ellipsis;
-}
-#second .second-ul>li .information p:first-child{
-	color: #514e4d;
-	font-size: 14px;
-}
-
-#second .second-ul li  p:nth-child(2){
-	font-size: 13px;
-	color: #7e7979;
-	margin:7px 0;
-}
-#second .second-ul li .information-span{
-	margin-top: 15px;
-}
-#second .second-ul li .information-span span:first-child{
-	color: #eb6332;
-	font-family: arial,sans-serif;
-}
-#second .second-ul li .information-span span:nth-child(2){
-	background:#f8b62b;
-}
-#second .second-ul li .information-span span:nth-child(3){
-	background:#66cc00;
-}
-
-#second .second-ul li .information-span span:nth-child(2),#second .second-ul li .information-span span:nth-child(3){
-	padding: 0 5px;
-	color: #f7fcf5;
-	border-radius: 3px; 
-	text-align: center;
-	font-size: 11px;
-	width: 34px;
-	height: 17px;
-	float: right;
-	margin-left: 5px;
-	margin-top: 3px;
-	cursor: pointer;
 }
 
 
@@ -1147,16 +1154,13 @@
 
 
 /*????ѵ*/
-/*#train .parentdiv-div{
-	height: 600px;
-}*/
+
 #train .parentdiv-div ul{
 	overflow: hidden;
 	padding-bottom: 10px;
 }
 #train .parentdiv-div li{
 	float: left;
-	/*width: 25%;*/
 	margin-top: 20px;
 	margin-left: 15px;
 }
@@ -1168,8 +1172,8 @@
 	border-top: none;
 }
 #train .train-v-c .train-video{
-	/*width: 256px;*/
 	height: 190px;
+	width: 279px;
 	overflow: hidden;
 	position: relative;
 	cursor: pointer;
@@ -1181,7 +1185,7 @@
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -o-transition: all .3s ease;
-    -webkit-backface-visibility: hidden;
+    -ms-transition: all .3s ease ;
     position: absolute;
     z-index: 40;
 
@@ -1336,31 +1340,66 @@
 #activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-detail .activity-detail-present .comeplete{
 	float: right;
 }
-/*????Ƹ*/
+/*合作优惠*/
+#recruit .parentdiv-jszp .parentdiv-div{
+	height: 155px;
+}
 #recruit .recruit-d ul{
 	overflow: hidden;
 	margin-top: 18px;
 	padding-bottom: 10px;
+	padding:0 10px;
 }
 #recruit .recruit-d li{
 	float: left;
 	width: 16.6666%;
 	text-align: center;
+
 }
 #recruit .recruit-d li a{
 	width: 185px;
 	height: 118px;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
 }
+#recruit .recruit-d li a img{
+	transition: all .3s ease 0s;
+	-webkit-transition: all .3s ease 0s;
+	-moz-transition:all .3s ease 0s;
+	-o-transition:all .3s ease 0s;
 
+}
+#recruit .recruit-d li a .slideDown{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background:#1b5d7e;
+	opacity: .5;
+	margin:auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+#recruit .recruit-d li a:hover .slideDown{
+	opacity: .7;
+}
+#recruit .recruit-d li a:hover img{
+	transform: scale(1.05,1.05);
+	-webkit-transform: scale(1.05,1.05);
+	-o-transform:scale(1.05,1.05);
+}
 
 
 #favourable{
 	margin:33px 0;
-	height: 100px;
-	border:1px solid #d7d4d4;
+	padding-bottom: 40px;
 }
 #favourable ul{
 	overflow: hidden;
+	border:1px solid #d7d4d4;
 }
 #favourable .favourable-oneul li{
 	padding-left: 20px;
@@ -1523,7 +1562,7 @@
 }
 
 #nav-left{
-	position: absolute;
+	position: relative;
 	left: 0;
 	top: 0;
 	width: 100%;

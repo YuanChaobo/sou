@@ -132,7 +132,6 @@ $(function(){
 	})
 
 
-
 	// 移动定位
 	$(window).scroll(function(){
 		if($(document).scrollTop()>300){
