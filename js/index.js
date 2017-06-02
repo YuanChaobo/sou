@@ -91,7 +91,7 @@ $(function(){
  		$(this).css('color','#666');
  	})
  	$('#content').find('.first-nav li').on('click',function(){
- 			var wh=$(this).width()/2-10+'px';
+ 			var wh=$(this).width()/2-0+'px';
 		$(this).addClass('currency-all').find('i').css({
 			'left':wh,
 			'display':'block'
@@ -102,6 +102,16 @@ $(function(){
 		
  	});
  	// box-shadow
+ 	$('#soujianshen').find('.soujianshen-qb .soujianshen-padding li').hover(function(){
+ 		$(this).find('.hoverboxshow').addClass('boxshadow')
+ 	},function(){
+ 		$(this).find('.hoverboxshow').removeClass('boxshadow');
+ 	})
+ 	$('#second').find('.second-ul>li').hover(function(){
+ 		$(this).find('.information').addClass('boxshadow');
+ 	},function(){
+ 		$(this).find('.information').removeClass('boxshadow');
+ 	})
  	$('#activity-v').find('.activity-zhd li>div').hover(function(){
  		$(this).find('.activity-detail').addClass('boxshadow');
  	},function(){
@@ -141,7 +151,7 @@ $(function(){
 			})
 			$('#nav-left').find('li').eq('0').find('a').addClass('linkbp-bd').parents('li').siblings('li').find('a').removeClass('linkbp-bd');
 		}else{
-			if($('body').scrollTop()<350){
+			if($('body').scrollTop()<300){
 				$("#nav-left").css({
 					'position':'absolute',
 					'top':'0px',
