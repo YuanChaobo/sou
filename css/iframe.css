@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+#iframe{
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 12px;
+}
+#iframe #head{
+	width: 1207px;
+	height: 40px;
+	margin:0 auto;
+}
+#iframe #head .head-logo{
+	width: 165px;
+	height: 40px;
+	float: left;
+	display: block;
+	background: url(../images/logo.png) no-repeat left;
+	background-size: 235px 44px;
+	background-position: 48% 10%;
+}
+#iframe #head .head-nav{
+	float: right;
+
+}
+#iframe #head .head-nav ul{
+	line-height: 40px;
+}
+#iframe #head .head-nav li{
+	float: left;
+	
+}
+#iframe #head .head-nav li a{
+	display: inline-block;
+	height: 12px;
+	line-height: 12px;
+	font-size: 12px;
+	padding:0 5px;
+	color:#6c6c6c;
+	border-right:1px solid #c9c9c9;
+}
+#iframe #head .head-nav .head-nav-lastli a{
+	border:none;
+}
+#iframe #head .head-nav li a i{
+	display: inline-block;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    margin-left: 5px;
+    vertical-align: middle;
+    overflow: hidden;
+    border-top: 3px solid #5a5859;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-bottom: 0 none;
+    transition: transform 0.2s ease 0s;
+}
+#iframe #head .head-nav li:hover a i{
+	transform: rotate(180deg);
+	-webkit-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-o-transform:rotate(180deg);;
+}
