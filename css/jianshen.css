@@ -504,6 +504,7 @@
 #main{
 	width: 1207px;
 	margin:0 auto;
+	overflow: hidden;
 }
 
 #main .main-left {
@@ -575,7 +576,9 @@
 	margin-left: 5px;
 	vertical-align: 2px
 }
-
+#main .main-left .main-table-content{
+	height: 1355px;
+}
 #main .main-left-content{
 	width: 100%;
 }
@@ -684,6 +687,100 @@
 	text-indent: -6px;
 	color: #c9c9c9;
 }
+#main .main-left .gengduoyouhui{
+
+}
+#main .main-left .gengduoyouhui h3{
+	font-size: 21px;
+	color: #000;
+}
+#main .main-left .gengduoyouhui .jiudianlunbo{
+	height: 103px;
+	width: 100%;
+	margin-top: 10px;
+	border:1px solid #d8d8d8;
+	border-top: 2px solid #d8d8d8;
+}
+#main .main-left .gengduoyouhui h3 a{
+	font-size: 12px;
+	float: right;
+	color: #309fd9;
+	line-height: 28px;
+}
+
+
+#main .main-left .gengduoyouhui .jiudianlunbo{
+	width: 100%;
+	height: 103px;
+	line-height: 103px;
+	padding:0 30px;
+	position: relative;
+}
+#main .main-left .gengduoyouhui .jiudianlunbo .jiudianlunbo-content{
+	height: 101px;
+	line-height: 103px;
+	padding:3px 1px 0px;
+	overflow: hidden;
+}
+#main .main-left .gengduoyouhui .jiudianlunbo .jiudianlunbo-content div{
+	height: 94px;
+	position: relative;
+	left: 0;
+	top: 0;
+}
+#main .main-left .gengduoyouhui .jiudianlunbo .jiudianlunbo-content div a{
+	display: inline-block;
+	height: 94px;
+	float: left;
+	margin:0 6px;
+}
+#main .main-left .gengduoyouhui .jiudianlunbo .jiudianlunbo-content div a img{
+	display: block;
+}
+#main .main-left .gengduoyouhui .jiudianlunbo .left-button{
+	position: absolute;
+	left: 0px;
+	top: 0;
+	height: 100%;
+	width: 30px;
+	line-height: 81px;
+	text-align: center;
+	border-right: 1px solid #d8d8d8;
+	background:#f5f5f5;
+
+}
+#main .main-left .gengduoyouhui .jiudianlunbo .left-button span{
+	height: 0px;
+	width: 0px;
+	font-size: 0px;
+	overflow: hidden;
+	border-right: 8px solid #b4b4b4;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-left: 0 none;
+}
+#main .main-left .gengduoyouhui .jiudianlunbo .right-button{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 30px;
+	line-height: 81px;
+	text-align: center;
+	border-left: 1px solid #d8d8d8;
+	background: #f5f5f5;
+}
+#main .main-left .gengduoyouhui .jiudianlunbo .right-button span{
+	height: 0px;
+	width: 0px;
+	font-size: 0px;
+	overflow: hidden;
+	border-left: 8px solid #b4b4b4;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-right: 0 none;
+}
+
 
 #main .none-block{
 	display: none;
@@ -692,12 +789,13 @@
 	float: right;
 	display: inline-block;
 	width: 385px;
-	    margin-top: 83px;
+	margin-top: 83px;
 }
 #main .main-right .signin-test{
 	width: 298px;
 	border:2px solid #d7d7d7;
 	border-top: 0 none;
+	position: relative;
 }
 #main .main-right .main-right-signin{
 	height: 85px;
@@ -743,6 +841,7 @@
 #main .main-right .main-shishui{
 	padding-left: 16px;
 	position: relative;
+	z-index: 5;
 }
 #main .main-right .main-shishui .main-shishui-dianping{
 	font-size: 12px;
@@ -840,4 +939,265 @@
 }
 #main .main-right .main-shishui .shishui-dianping .shishui-dianping-tourism p a:hover{
 	color: red;
+}
+
+#main .main-right .signin-test .chuo{
+	position: absolute;
+	right: -76px;
+    top: 34px;
+    z-index: 0;
+}
+#main .main-right .main-disburden{
+	border: 6px solid #ffb750;
+	padding-left: 24px;
+	background:#ffffe8;
+	padding-bottom: 43px;
+	margin-top: 21px;
+	margin-bottom: 24px;
+}
+
+#main .main-right .main-disburden .disburdenr-service{
+	margin-top: 30px;
+}
+#main .main-right .main-disburden .disburdenr-service .price h3{
+	color: #249cd8;
+}
+#main .main-right .main-disburden .disburdenr-price .price h3{
+	color:#ff8522;
+}
+#main .main-right .main-disburden .price h3{
+	font-size: 25px;
+}
+#main .main-right .main-disburden .price p{
+	font-size: 16px;
+	color: #696969;
+}
+#main .main-right .main-disburden .service-price .service{
+	display: inline-block;
+	margin-right: 18px;
+	width: 35px;
+}
+#main .main-right .main-disburden .disburdenr-blue{
+
+}
+#main .main-right .main-disburden .service-price .price{
+	display: inline-block;
+}
+
+#main .main-right .main-disburden  .disburdenr-price{
+	padding-top: 36px;
+}
+
+#main .main-right .find{
+	border:1px solid #c5c5c5;
+	background:#f2f2f2;
+	border-radius: 5px;
+	padding:0 29px;
+}
+#main .main-right .find>h3{
+	font-size: 17px;
+	border-bottom: 1px solid #c5c5c5;
+	padding-top: 21px;
+	padding-bottom: 12px;
+	margin-bottom: 10px;
+}
+#main .main-right .find .find-wenhua{
+	overflow: hidden;
+	clear: both;
+}
+#main .main-right .find .find-wenhua .wenhua-img{
+	width: 138px;
+	height: 89px;
+	float: left;
+	margin-right: 11px;
+	display: inline-block;
+}
+#main .main-right .find .find-wenhua .wenhua-img img{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+#main .main-right .find .find-wenhua .wenhua-taiwan{
+	float: left;
+	height: 89px;
+	width: 176px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+#main .main-right .find .find-wenhua .wenhua-taiwan h3{
+	font-size: 17px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-top: 10px;
+	margin-bottom: 3px;
+}
+#main .main-right .find .find-wenhua .wenhua-taiwan p{
+	font-size: 12px;
+	color: #6f6f6f;
+	line-height: 25px;
+}
+#main .main-right .find .find-wenhua .open{
+	width: 100%;
+	height: 46px;
+	border:1px solid #78cef4;
+	border-radius: 5px;
+	background: #fff;
+	line-height: 46px;
+	margin: 102px 0 27px 0;
+	text-align: center;
+}
+#main .main-right .find .find-wenhua .open a{
+
+	color: #249cd8;
+	height: 17px;
+}
+#main .main-right .gangling{
+	display: block;
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+#main .main-right .cuxiao p{
+	font-size: 23px;
+	margin-bottom: 5px;
+}
+#main .main-right .cuxiao p span{
+	position: relative;
+}
+#main .main-right .cuxiao p i{
+	display: block;
+	position: absolute;
+	right: -47px;
+	top: 0;
+	width: 42px;
+	height: 28px;
+	background:url('../images/sale.jpg') no-repeat left;
+}
+
+#main .main-right .cuxiao .cuxiao-zixingche{
+	display: block;
+	width: 100%;
+	height: 166px;
+}
+#main .main-right .cuxiao .cuxiao-zixingche img{
+	border-radius: 5px;
+}
+#main .main-right .cuxiao .cuxiao-jugangling{
+	display: block;
+	width: 100%;
+	height: 72px;
+	margin-top: 15px;
+}
+#main .main-right .cuxiao .cuxiao-jugangling img{
+	width: 100%;
+	height: 72px;
+}
+
+#footer-img{
+	width: 1207px;
+	overflow: hidden;
+	margin:0 auto;
+	margin-top: 102px;
+	margin-bottom: 55px;
+}
+#footer-img a{
+	display: inline-block;
+	width: 592px;
+	height: 108px;
+}
+#footer-img .footer-img-left{
+	float: left;
+}
+#footer-img .footer-img-right{
+	float: right;
+}
+
+#rukou{
+	width: 1207px;
+	margin:0 auto;
+	border:1px solid #b4b4b4;
+	padding:0 15px;
+	padding-top: 17px;
+}
+#rukou .rukou-jieshao h5{
+	font-size: 12px;
+	color: #000;
+	margin-bottom: 5px;
+}
+#rukou .rukou-jieshao p{
+	font-size: 12px;
+	padding-right: 15px;
+	line-height: 20px;
+}
+#rukou .rukou-xiangqing{
+	overflow: hidden;
+	margin-top: 20px;
+}
+#rukou .rukou-xiangqing li {
+	height: 31px;
+	line-height: 31px;
+	border-bottom: 1px dashed #dddddd;
+}
+#rukou .rukou-xiangqing li dl{
+	float: left;
+	font-size: 12px;
+}
+#rukou .rukou-xiangqing li dl dt{
+	float: left;
+	margin-right: 21px;
+	font-weight: 700;
+}
+#rukou .rukou-xiangqing li dl dd{
+	float: left;
+	margin:0 25px;
+}
+#rukou .rukou-xiangqing li dl dd a{
+	color: #adadad;
+}
+#rukou .rukou-xiangqing .bordernone{
+	border:none;
+}
+
+
+#footer{
+	width: 1207px;
+	margin:0 auto;
+	margin-top: 70px;
+}
+#footer .footer-suoyin{
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+}
+#footer .footer-suoyin a{
+	display: inline-block;
+	color: #000000;
+	height: 12px;
+	line-height: 12px;
+	padding:0 5px;
+	border-right: 1px solid #000;
+
+}
+#footer .footer-suoyin .last-child{
+	border:0 none;
+}
+#footer .beian{
+	margin-top: 8px;
+}
+#footer .beian .gongan{
+	display: inline-block;
+	width: 20px;
+	height: 21px;
+	background:url('../images/gongan.jpg') no-repeat left;
+	vertical-align: -5px;
+}
+#footer .chengxin{
+	margin-top: 10px;
+
+}
+#footer .chengxin img{
+	border:1px solid #d7d7d7;
+	display: inline-block;
+	margin-left: 10px;
 }

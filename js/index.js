@@ -42,7 +42,6 @@ $(function(){
 			setTimeout(b,300);
 			function b(){
 				thisa.css('background','#0088d3');
-				// console.log(thisa);
 			}
 		})
 	},function(){
