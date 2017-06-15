@@ -30,10 +30,6 @@ $(function(){
 	// 导航hover
 	$('#nav .nav-list').hover(function(){
 		$(this).children('.list-div').css('display','block').siblings('a').children('i').css('display','block');
-	},function(){
-		$(this).children('div').css('display','none').siblings('a').children('i').css('display','none');
-	})
-	$('#nav').find('.nav-list').hover(function(){
 		$(this).children('a').css('background','#2b69aa');
 
 		$(this).has('.list-div').children('a').each(function(){
@@ -45,9 +41,9 @@ $(function(){
 			}
 		})
 	},function(){
+		$(this).children('div').css('display','none').siblings('a').children('i').css('display','none');
 		$(this).children('a').css('background','#0088d3')
 	})
-
 
 	$('#nav .nav-t-div').find('.ladn-register a').hover(function(){
 		$(this).css('text-decoration','underline');

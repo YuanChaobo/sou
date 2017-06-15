@@ -77,14 +77,14 @@
 	position: relative;
 	height: 40px;
 }
-#nav .nav-nav ul .nav-li{
+#nav .nav-nav ul >li{
 	float: left;
 	height: 40px;
 	line-height: 40px;
 	font-size: 15px;
 	padding-right: 1px;
 }
-#nav .nav-nav .nav-li .nav-li-a{
+#nav .nav-nav ul>li .nav-li-a{
 	background: url(../images/bordre1.png) right center no-repeat;
 	position: relative;
     display: block;
@@ -149,7 +149,7 @@
     overflow: hidden;
     font-size: 14px;
 }
-#nav .nav-nav .nav-li .block{
+.block{
 	display: block !important;
 }
 #nav .nav-nav .nav-li .list-div  ul{
@@ -541,6 +541,7 @@
 	height: 46px;
 	line-height: 65px;
 	position: relative;
+	    cursor: pointer;
 }
 #main .main-left .main-left-nav li span{
 	display: inline-block;
@@ -717,26 +718,37 @@
 	position: relative;
 }
 #main .main-left .gengduoyouhui .jiudianlunbo .jiudianlunbo-content{
+	width: 744px;
 	height: 101px;
 	line-height: 103px;
 	padding:3px 1px 0px;
 	overflow: hidden;
 }
-#main .main-left .gengduoyouhui .jiudianlunbo .jiudianlunbo-content div{
+#main .main-left .gengduoyouhui .jiudianlunbo .jiudianlunbo-content .lunbodiv{
 	height: 94px;
 	position: relative;
 	left: 0;
 	top: 0;
 }
-#main .main-left .gengduoyouhui .jiudianlunbo .jiudianlunbo-content div a{
+#main .main-left .gengduoyouhui .jiudianlunbo .jiudianlunbo-content .lunbodiv .content-img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+#main .main-left .gengduoyouhui .jiudianlunbo .jiudianlunbo-content .content-img a{
 	display: inline-block;
-	height: 94px;
 	float: left;
-	margin:0 6px;
+	height: 94px;
+	width: 105px;
+	text-align: center;
 }
-#main .main-left .gengduoyouhui .jiudianlunbo .jiudianlunbo-content div a img{
+#main .main-left .gengduoyouhui .jiudianlunbo .jiudianlunbo-content .content-img a img{
 	display: block;
+	width: 94px;
+	height: 94px;
+	border:2px solid #ec6941;
 }
+
 #main .main-left .gengduoyouhui .jiudianlunbo .left-button{
 	position: absolute;
 	left: 0px;
