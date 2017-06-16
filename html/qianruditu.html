@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<title>地图</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/map.css">
+	<script type="text/javascript" src="../js/jquery-1.11.2.js"></script>
+	<script type="text/javascript" src='../js/map.js'></script>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=VOmH5i49DGaPfnVbKSViv5YfSReAEYjL"></script>
+</head>
+<body>
+	<div id="Map">
+		<div id="jiansuo">
+			<a href="##"></a>
+			<div class="dinput">
+				<div class="sousuo-city bod">
+					<input type="text" name="b" placeholder="北京" value="北京">
+					<span></span>
+				</div>
+				<div class="zuhe bod">
+					<input type="text" name="" placeholder="酒店名、地标、商圈，可组合搜索">
+				</div>
+				<div class="button">
+					<button>搜索</button>
+				</div>
+			</div>
+		</div>
+		<div class="left-right">
+				
+			<div id="left">
+				<div class="left-table">
+					<div class="bacfff">筛选条件</div>
+					<div>酒店列表</div>
+				</div>
+				<div class="rulidate">
+					<p>入离日期</p>
+					<div>
+						<input type="text" name="" value="2017-06-16" readOnly="true" >
+						<span>至</span>
+						<input type="text" name="" value="2017-06-17" readOnly="true">
+						<label>共<var>1</var>晚</label>
+					</div>
+				</div>
+				<div>
+					<p>价格范围 <span></span></p>
+					<div>
+						<ul>
+							<li>
+								<label>
+									<input type="checkbox" name="a">
+									<span><i>￥</i>200以下</span>
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="a">
+									<span><i>￥</i>200-<i>￥</i>300</span>
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="a">
+									<span><i>￥</i>300-<i>￥</i>500</span>
+								</label>
+							</li>
+							<li>
+								<label>
+									<input type="checkbox" name="a">
+									<span><i>￥</i>500以上</span>
+								</label>
+							</li>
+						</ul>
+						<div>
+							自定义<input type="text" name="">-<input type="text" name="">
+							<button>确定</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="right">
+				
+			</div>
+		</div>
+	</div>
+</body>
+</html>
