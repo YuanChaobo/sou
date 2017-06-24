@@ -199,7 +199,6 @@ $(function(){
 		$(this).prev('li').find('a').css('border-bottom','1px solid #8a8a8a');
 		$(this).siblings('li').find('a').removeClass('linkbp-bd');
 		$(this).find('a').addClass('linkbp-bd');
-		console.log('sss')
 	})
 	$('#nav-left').find('li').eq(0).on('click',function(){
 		$('body,html').animate({

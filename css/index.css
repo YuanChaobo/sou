@@ -83,6 +83,9 @@
 	font-size: 12px;
 	color: #ababab;
 }
+#header .header_box .header-city>ul>li:hover a{
+	color: #0088d3;
+}
 #header .header_box .input-all{
 	width: 347px;
 	height: 31px;
@@ -102,8 +105,9 @@
 	float: right;
 	height: 30px;
 	width: 40px;
-	background: #249cd8 url(../images/search.jpg) no-repeat center;
+	background: #0088d3 url(../images/search.jpg) no-repeat center;
 	cursor: pointer;
+	background-size: 21px 15px;
 }
 #header .header_box>p{
 	float: left;
@@ -644,7 +648,7 @@
 	border:none;
 }
 #content .parentdiv-soujianshen{
-	height: 388px;
+	height: 424px;
 	border:1px solid #dfe0e3;
 }
 #content .parentdiv-ershou{
@@ -655,7 +659,7 @@
 	overflow: hidden;
 }
 #content .parentdiv-jspx{
-	height: 600px;
+	height: 620px;
 }
 #content .parentdiv-jszp{
 	height: 175px;
@@ -666,7 +670,7 @@
 	
 }
 #content .parentdiv-zhd{
-	height: 330px;
+	height: 345px;
 	border-left: 1px solid #c9c9ca;
 	border-right: 1px solid #c9c9ca;
 	border-bottom: 1px solid #ecebeb;
@@ -675,7 +679,11 @@
 #content .parentdiv .parentdiv-div-city>ul{
 	line-height: 40px;
 	overflow: hidden;
-	margin-left: 10px;
+	padding-left: 10px;
+}
+#content .parentdiv .parentdiv-div-city .borderleft-right{
+	border-left: 1px solid  #dfe0e3;
+	border-right: 1px solid  #dfe0e3;
 }
 #content .parentdiv .parentdiv-div-city .parentdiv-abc-li{
 	float: left;
@@ -696,18 +704,18 @@
 
 /*搜健身ʽ*/
 #content .parentdiv .soujianshen-qb{
-	height: 350px;
+	height: 380px;
 	overflow: hidden;
 }
 #content .parentdiv .parentdiv-div-city .soujianshen-tg{
 
 }
 #content #content-group .parentdiv{
-	height: 710px;
+	height: 713px;
 }
 
 #content .parentdiv .soujianshen-qb .soujianshen-qb-quanbu{
-	height: 350px;
+	height: 380px;
 }
 #content .soujianshen-padding{
 	padding:0 7px;
@@ -727,15 +735,15 @@
 #content .parentdiv .soujianshen-qb .soujianshen-quanbud .soujianshen-quanbud-img{
 	display: block;
 	width: 100%;
-	height: 89px;
+	height: 110px;
 }
 
 #content .parentdiv .soujianshen-qb .soujianshen-quanbud .soujianshen-quanbud-img img{
 	width: 100%;
-	height: 100%:;
+	height: 100%;
 }
 #content .parentdiv .soujianshen-qb .soujianshen-quanbud .hoverboxshow{
-	padding-top: 16px;
+	padding-top: 9px;
 	padding-right: 5px;
 }
 #content .parentdiv .soujianshen-qb .soujianshen-quanbud .soujianshen-jsfmc{
@@ -773,15 +781,17 @@
 #content .parentdiv .soujianshen-qb .soujianshen-quanbud .soujianshen-jsfdz-mo .jsfdz-mo-zs{
 	position: absolute;
 	display: inline-block;
+	width: 70px;
 	height: 13px;
 	line-height: 13px;
 	left: 5px;
 	top: -6px;
 	cursor: pointer;
 }
-#content .parentdiv .soujianshen-qb .soujianshen-quanbud .soujianshen-jsfdz-mo .jsfdz-mo-zs img{
-	width: 70px;
-	height: 10px;
+#content .parentdiv .soujianshen-qb .soujianshen-quanbud .soujianshen-jsfdz-mo .jsfdz-mo-zs i{
+	color: #ff9600;
+	font-size: 14px;
+	float: left;
 }
 #content .parentdiv .soujianshen-qb .soujianshen-quanbud .soujianshen-jsfdz-mo .jsfdz-mo-dizhi{
 	font-size: 12px;
@@ -844,8 +854,8 @@
 	width: 25%;
 	position: relative;
 	padding:12px 0;
-	border-bottom: 1px solid #dfe0e3;
-	border-right: 1px solid #dfe0e3;
+	border-bottom: 1px solid #ecebeb;
+	border-right: 1px solid #ecebeb;
 }
 #content .parentdiv .parentdiv-div-list .parentdiv-div-listli .parentdiv-div-center{
 	padding:0 24px;
@@ -886,7 +896,7 @@
 	font-weight: 700;
 }
 #content .parentdiv .parentdiv-div-list .parentdiv-div-center .parentdiv-p-two{
-	font-size: 12px;
+	font-size: 13px;
 	color: #999;
 }
 
@@ -899,7 +909,7 @@
 	color: #ea5414;
 	font-size: 20px;
 	font-weight: 400;
-	margin-left: -4px;
+	margin-left: -2px;
 	font-family: arial,sans-serif;
 }
 #content .parentdiv .parentdiv-div-list .parentdiv-div-center .parentdiv-div-money .before-money{
@@ -915,6 +925,8 @@
 }
 #content .parentdiv .parentdiv-div-list .parentdiv-div-center strong{
 	font-weight: 400;
+	margin-right: -4px;
+	margin-left:-4px;
 }
 #content .parentdiv .parentdiv-div-list .parentdiv-div-center .spotdiv{
 	font-size: 12px;
@@ -923,10 +935,24 @@
 	padding-top: 10px;
 	border-top: 1px dotted #bbbaba;
 }
-
-
-
-
+#content .parentdiv .parentdiv-div-list .parentdiv-div-center .spotdiv >span{
+	float: right;
+}
+#content .parentdiv .parentdiv-div-list .parentdiv-div-center .spotdiv .spot{
+	height: 12px;
+	line-height: 18px;
+	margin-right: 13px;
+}
+#content .parentdiv .parentdiv-div-list .parentdiv-div-center .spotdiv .spot i{
+	font-size: 12px;
+	color: #ff9804;
+	float: left;
+}
+#content .parentdiv .parentdiv-div-list .parentdiv-div-center .spotdiv .spot .gray{
+	color: 	#909090;
+}
+#content .parentdiv .parentdiv-div-list .parentdiv-div-center .spotdiv .spot-dis{
+}
 
 #content .first-nav{
 	position: relative;
@@ -980,8 +1006,10 @@
 	width: 31px;
 	height: 15px;
 	position: absolute;
-	top: -8px;
-	right: -6px;
+	top: -19px;
+    right: -22px;
+    font-size: 30px;
+    color: #ffb732;
 }
 #second .parentdiv-ershou .qiangershouka-qb .second-ul{
 	overflow: hidden;
@@ -1008,6 +1036,7 @@
 	color: #3d3c3a;
 	overflow: hidden;
 	margin-top: 15px;
+	position: relative;
 }
 #second .parentdiv-ershou .qiangershouka-qb .second-ul li .gymname a{
 	display: inline-block;
@@ -1019,12 +1048,15 @@
 	color: black;
 }
 #second .parentdiv-ershou .qiangershouka-qb .second-ul li .gymname .mian1{
+	position: absolute;
 	float: right;
-	width: 14px;
-	height:14px;
-	margin-top: 2px;
-	background: url("../images/mian1.gif") left no-repeat;
+	width: 19px;
+	height:21px;
 	background-size: contain;
+	color: #65cc00;
+	font-size: 19px;
+	top: -3px;
+	right: 0;
 }
 #second .parentdiv-ershou .qiangershouka-qb .second-ul li .gymmoney{
 	margin-top: 15px;
@@ -1147,8 +1179,11 @@
 	font-size: 11px;
 	color: #3e3a39;
 }
-#adviser .adviser-ul .adviser-ul-fird p:last-child a{
+#adviser .adviser-ul .adviser-ul-fird .dav a{
 	color: #209dd9;
+}
+#adviser .adviser-ul .adviser-ul-fird .dav .V{
+	font-size: 18px;
 }
 #adviser .adviser-ul .adivser-ul-twod{
 	float: left;
@@ -1174,7 +1209,7 @@
 
 #train .parentdiv-div ul{
 	overflow: hidden;
-	padding-bottom: 10px;
+	padding-bottom: 30px;
 }
 #train .parentdiv-div li{
 	float: left;
@@ -1250,14 +1285,18 @@
 	margin-bottom: 10px;
 }
 #train .train-mon-spd{
-	font-size: 15px;
+	font-size: 19px;
 }
 #train .train-mon-spd>span{
 	color: #ea5414;
 	display: inline-block;
-	font-family: arial,sans-serif
+	font-family: arial,sans-serif;
+	letter-spacing: 1px;
 }
-
+#train .train-mon-spd>span i{
+	font-style: inherit;
+	font-size: 14px
+}
 #train .train-mon-spd div{
 	font-size: 10px;
 	color: #706e6d;
@@ -1290,11 +1329,19 @@
 	position: relative;
 }
 #activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-lianjie .zhd-mark{
+	display: block;
 	width: 78px;
 	height: 78px;
+	line-height: 78px;
 	position: absolute;
 	left: 7px;
 	bottom: -40px;
+	border-radius: 50%;
+	box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
+#activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-lianjie .zhd-mark img{
+	width: 100%;
+	height: 100%;
 }
 #activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-lianjie .activity-lianjie-jsf{
 	width: 100%;
@@ -1303,10 +1350,14 @@
 #activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-detail{
 	padding-top: 13px;
 	width: 371px;
-	height: 86px;
+	height: 95px;
 	border:1px solid #dfdcdc;
 	border-top: 0 none;
 	background:#fff;
+}
+
+#activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-detail:hover .activity-detail-brief a{
+	color: #0088d3;
 }
 .boxshadow{
 	box-shadow:0px 2px 2px #d6d3d3;
@@ -1333,8 +1384,9 @@
 	display: inline-block;
 	width: 12px;
 	height: 12px;
-	background: url("../images/dingwei.jpg") no-repeat left;
 	background-size: contain;
+	font-size: 12px;
+	vertical-align: -1px;
 }
 #activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-detail .activity-detail-brief{
 	color: #484848;
@@ -1346,8 +1398,10 @@
 	display: inline-block;
 	width: 12px;
 	height: 12px;
-	background:url("../images/zan.jpg") left no-repeat;
 	background-size: contain;
+	font-size: 12px;
+	vertical-align: 1px;
+	margin-right: 2px;
 } 
 #activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-detail .activity-detail-present .comeplete{
 	float: right;
@@ -1401,6 +1455,32 @@
 	color:#fff;
 	padding-bottom: 4px;
 	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+	width: 80px;
+	height: 32px;
+	padding-top: 5px;
+}
+#recruit .recruit-d .jszp-zhaopin li a .slideDown h4 span{
+	display: block;
+	height: 19px;
+	background:url('../images/jianshenwenzi.png') no-repeat left;
+}
+#recruit .recruit-d .jszp-zhaopin li a .slideDown h4 .bspan1{
+	background-position: 0px -7px;
+}
+#recruit .recruit-d .jszp-zhaopin li a .slideDown h4 .bspan2{
+	background-position: 0px -29px;
+}
+#recruit .recruit-d .jszp-zhaopin li a .slideDown h4 .bspan3{
+	background-position: 0px -52px;
+}
+#recruit .recruit-d .jszp-zhaopin li a .slideDown h4 .bspan4{
+	background-position: 0px -75px;
+}
+#recruit .recruit-d .jszp-zhaopin li a .slideDown h4 .bspan5{
+	background-position: 0px -96px;
+}
+#recruit .recruit-d .jszp-zhaopin li a .slideDown h4 .bspan6{
+	background-position: 0px -119px;
 }
 #recruit .recruit-d .jszp-zhaopin li a .slideDown p{
 	font-size: 12px;
@@ -1516,8 +1596,11 @@
 	padding:0;
 	border-right: 1px solid #d7d4d4;
 }
-#introduce  .introduce-ul>li:first-child img{
+#introduce  .introduce-ul .fintst-li i{
+	width: 36px;
+	height: 36px;
 	float: left;
+	font-size: 36px;
 }
 #introduce  .introduce-ul>li:first-child div{
 	float: left;
@@ -1570,6 +1653,15 @@
 	margin-top: 10px;
 	font-size: 12px;
 
+}
+#introduce .introduce-ul .sy-sjsjs-last i{
+	display: inline-block;
+	width: 30px;
+	height: 36px;
+	font-size: 41px;
+	color: #60cafc;
+	margin-top: -17px;
+	margin-bottom: 10px;
 }
 #introduce .introduce-ul .sy-sjsjs-lastd .sy-sjsjs-phone{
 	color: #3e3a35;

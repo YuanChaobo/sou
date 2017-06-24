@@ -7,25 +7,26 @@ $(function(){
 	})
 	// 导航hover
 	$('#nav').find('.nav-li').hover(function(){
-		$(this).find('a span').addClass('block').parents('.nav-li').siblings('.nav-li').find('a span').removeClass('block');
+		$(this).find('.nav-li-a span').addClass('block').parents('.nav-li').siblings('.nav-li').find('.nav-li-a span').removeClass('block');
 		$(this).find('.list-div').addClass('block').parents('.nav-li').siblings('.nav-li').find('.list-div').removeClass('block');
 		$(this).children('a').css('background','#2b69aa');
 		$(this).has('.list-div').children('a').each(function(){
 			var thisa=$(this);
-			console.log(this);
 			setTimeout(function(){
 				thisa.css('background','#0088d3');
 			},300)
 		})
 
 	},function(){
-		$('#nav').find('.nav-li').eq(0).find('a span').addClass('block').parents('.nav-li').siblings('.nav-li').find('a span').removeClass('block');
+		$('#nav').find('.nav-li').eq(0).find('.nav-li-a span').addClass('block').parents('.nav-li').siblings('.nav-li').find('.nav-li-a span').removeClass('block');
 		$('#nav').find('.nav-li').eq(0).find('.list-div').addClass('block').parents('.nav-li').siblings('.nav-li').find('.list-div').removeClass('block');
-		// $(this).find('.list-div').css('display','none');
-		// $(this).find('.list-div').removeClass('block');
-		// $('#nav').find('.nav-li').eq(0).find('a span').addClass('block').parents('nav-li').find('.list-div').addClass('background').parents('.nav-li').siblings('.nav-li').children('a').find('span').removeClass('block')
 		$(this).children('a').css('background','#0088d3')
+	});
+
+	$('#main').find('.main-left-nav li').has('.cityList').on('click',function(){
+		$(this).find('.cityList').toggle();
 	})
+
 
 	// 无缝滚动
 	var lunbodiv=$('.content-img')[0];

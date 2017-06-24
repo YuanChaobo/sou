@@ -45,8 +45,17 @@ $(function(){
 		function(){
 			$(this).find('i').addClass('sanjiao').parents('.nav-list').siblings('li').find('i').removeClass('sanjiao');
 			$(this).find('.list-div').addClass('block').parents('.nav-list').siblings('li').find('.list-div').removeClass('block');
+			$(this).children('a').css('background-color','#2b69aa');
+			$(this).has('.list-div').children('a').each(function(){
+				var thisa=$(this);
+				setTimeout(function(){
+					thisa.css('background','#0088d3');
+				},300)
+			})
+
 		},function(){
 			$(this).parents('.nav-f-ul').find('.list-div').eq(1).addClass('block').parents('.nav-list').find('i').addClass('sanjiao').parents('.nav-list').siblings('.nav-list').find('.list-div').removeClass('block').parents('.nav-list').find('i').removeClass('sanjiao');
+			$(this).children('a').css('background-color','#0088d3');
 		}
 	)
 	$('#nav .nav-t-div').find('.ladn-register a').hover(function(){
