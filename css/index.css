@@ -19,7 +19,7 @@
 	width: 165px;
 	height: 40px;
 	background: url('../images/logo.png') no-repeat left;
-	background-size: 235px 44px;
+	background-size: 231px 44px;
 	background-position: 48% 10%;
 }
 #header .header_box>div{
@@ -94,6 +94,7 @@
 	line-height: 31px;
 	border:1px solid #249cd8;
 	border-radius: 3px;
+	background-color: #fff;
 }
 #header .header_box .input-all .text{
 	border:none;
@@ -532,8 +533,15 @@
     width: 100%;
     height: 346px;
 }  
+#carousel .swiper-container .hoverblue:hover{
+	background-position: 0px -2px;
+}
 #carousel .swiper-container .swiper-slide img{
 	width: 100%;
+	height: 100%;
+}
+#carousel .swiper-container .hoverblue{
+	
 }
 /*?Ʒ??չʾ*/
 #carousel #carousel-position{
@@ -649,7 +657,8 @@
 }
 #content .parentdiv-soujianshen{
 	height: 424px;
-	border:1px solid #dfe0e3;
+	border:1px solid #ecebeb;
+	border-top: 0 none;
 }
 #content .parentdiv-ershou{
 	height: 315px;
@@ -664,15 +673,15 @@
 #content .parentdiv-jszp{
 	height: 175px;
 	width: 100%;
-	border-left: 1px solid #c9c9ca;
-	border-right: 1px solid #c9c9ca;
+	border-left: 1px solid #ecebeb;
+	border-right: 1px solid #ecebeb;
 	border-bottom: 1px solid #ecebeb;
 	
 }
-#content .parentdiv-zhd{
+#content .parentdiv-zhdd{
 	height: 345px;
-	border-left: 1px solid #c9c9ca;
-	border-right: 1px solid #c9c9ca;
+	border-left: 1px solid #ecebeb;
+	border-right: 1px solid #ecebeb;
 	border-bottom: 1px solid #ecebeb;
 }
 
@@ -912,6 +921,9 @@
 	margin-left: -2px;
 	font-family: arial,sans-serif;
 }
+#content .parentdiv .parentdiv-div-list .parentdiv-div-center .parentdiv-div-money dfn{
+	font-style: inherit;
+}
 #content .parentdiv .parentdiv-div-list .parentdiv-div-center .parentdiv-div-money .before-money{
 	font-size: 12px;
 	color: #969493;
@@ -949,7 +961,7 @@
 	float: left;
 }
 #content .parentdiv .parentdiv-div-list .parentdiv-div-center .spotdiv .spot .gray{
-	color: 	#909090;
+	color: 	#C8C8C8;
 }
 #content .parentdiv .parentdiv-div-list .parentdiv-div-center .spotdiv .spot-dis{
 }
@@ -970,7 +982,16 @@
 }
 #content .first-nav>span a{
 	font-size: 14px;
+	color: #686666;
+}
+#content .first-nav>span a:hover{
 	color: #0088d3;
+}
+#content .first-nav>span a .wangyou{
+	font-style: inherit;
+	font-family: "SimSun";
+	vertical-align: 0px;
+	font-size: 15px;
 }
 
 #content .first-nav .currency li{
@@ -993,7 +1014,7 @@
 	border-left: 8px solid transparent;
 	border-top:8px solid transparent;
 	border-right: 8px solid transparent;
-	border-bottom: 6px solid #209dd9;
+	border-bottom: 6px solid #0088d3;
 	display:none;
 }
 #content  .first-nav .currency li:first-child .sanjiao{
@@ -1121,10 +1142,9 @@
 	border-radius: 3px;
 }
 #second .parentdiv-border{
-	border-left: 1px solid #c9c9ca;
-	border-right: 1px solid #c9c9ca;
-	border-bottom: 1px solid #e7e7e8;
-	border-top: 1px solid #e7e7e8;
+	border-left: 1px solid #ecebeb;
+	border-right: 1px solid #ecebeb;
+	border-bottom: 1px solid #ecebeb;
 }
 #second .parentdiv .qiangershouka-qb{
 	height: 273px;
@@ -1137,9 +1157,9 @@
 	overflow: hidden;
 }
 .parentdiv-border{
-	border-left: 1px solid #c9c9ca;
-	border-right: 1px solid #c9c9ca;
-	border-bottom: 1px solid #e1e1e1;
+	border-left: 1px solid #ecebeb;
+	border-right: 1px solid #ecebeb;
+	border-bottom: 1px solid #ecebeb;
 }
 #adviser .parentdiv .soujianshen-qb .guwen-qb-quanbu{
 	height: 299px;
@@ -1295,6 +1315,7 @@
 }
 #train .train-mon-spd>span i{
 	font-style: inherit;
+	vertical-align: 2px;
 	font-size: 14px
 }
 #train .train-mon-spd div{
@@ -1330,14 +1351,15 @@
 }
 #activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-lianjie .zhd-mark{
 	display: block;
-	width: 78px;
-	height: 78px;
-	line-height: 78px;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
 	position: absolute;
 	left: 7px;
 	bottom: -40px;
 	border-radius: 50%;
-	box-shadow: 0 0 4px rgba(0,0,0,0.2);
+	box-shadow: 0 0 5px rgba(0,0,0,0.2);
+	overflow: hidden;
 }
 #activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-lianjie .zhd-mark img{
 	width: 100%;
@@ -1513,7 +1535,7 @@
 }
 #favourable ul{
 	overflow: hidden;
-	border:1px solid #d7d4d4;
+	border:1px solid #ecebeb;
 	background:#fff;
 }
 #favourable .favourable-oneul li{
@@ -1534,7 +1556,7 @@
 	padding-right: 18px;
 	background:none;
 	width: 222px;
-	border-right: 1px solid #d7d4d4;
+	border-right: 1px solid #ecebeb;
 }
 #favourable .favourable-oneul li span{
 	float: right;
@@ -1543,6 +1565,12 @@
 	font-weight: 400;
 	font-size: 12px;
 	color: #bfbfc1;
+}
+#favourable ul li h5>span a i{
+	font-style: inherit;
+    font-family: "SimSun";
+    vertical-align: 0px;
+    font-size: 15px;
 }
 #favourable ul li a:hover{
 	color:#0088d3;
