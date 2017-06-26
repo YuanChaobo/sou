@@ -541,7 +541,10 @@
 	height: 100%;
 }
 #carousel .swiper-container .hoverblue{
-	
+	display: none;
+}
+#carousel:hover .swiper-container .hoverblue{
+	display: block;
 }
 /*?Ʒ??չʾ*/
 #carousel #carousel-position{
@@ -553,6 +556,7 @@
 	right: 0;
 	z-index: 1;
 }
+
 #carousel #carousel-position .position-li{
 	color: #fff;
 	height: 43px;
@@ -614,8 +618,10 @@
 	width: 188px;
 }
 #carousel #carousel-position .apparatus .apparatus-div img{
-	margin-top: 25px;
 	float: left;
+	width: 61px;
+	height: 14px;
+	margin-top: 25px;
 	margin-left: 25px;
 }
 #carousel #carousel-position .apparatus  p{
@@ -1345,37 +1351,42 @@
 }
 #activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-lianjie{
 	display: block;
-	width: 100%;
+	width: 372px;
 	height: 180px;
-	position: relative;
+	overflow: hidden;
 }
-#activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-lianjie .zhd-mark{
+#activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-detail .zhd-mark{
 	display: block;
 	width: 80px;
 	height: 80px;
 	line-height: 80px;
 	position: absolute;
 	left: 7px;
-	bottom: -40px;
+	top: -40px;
 	border-radius: 50%;
 	box-shadow: 0 0 5px rgba(0,0,0,0.2);
 	overflow: hidden;
 }
-#activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-lianjie .zhd-mark img{
+#activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-detail .zhd-mark img{
 	width: 100%;
 	height: 100%;
 }
 #activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-lianjie .activity-lianjie-jsf{
-	width: 100%;
-	height: 100%;
+	width: 373px;
+	height: 183px;
+	transition: all .3s ease 0s;
 }
 #activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-detail{
+	position: relative;
 	padding-top: 13px;
-	width: 371px;
+	width: 372px;
 	height: 95px;
 	border:1px solid #dfdcdc;
 	border-top: 0 none;
 	background:#fff;
+}
+#activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-lianjie:hover .activity-lianjie-jsf{
+	transform: scale(1.05,1.05); 
 }
 
 #activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-detail:hover .activity-detail-brief a{
@@ -1388,7 +1399,7 @@
 }
 #activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-detail p{
 	float: right;
-	width: 265px;
+	width: 260px;
 	margin-right: 17px;
 	font-size: 12px;
 	line-height: 24px;
@@ -1409,6 +1420,7 @@
 	background-size: contain;
 	font-size: 12px;
 	vertical-align: -1px;
+	margin-right: 2px;
 }
 #activity-v .parentdiv-zhd .zhd-qb-quanbu .activity-zhd li .activity-detail .activity-detail-brief{
 	color: #484848;
@@ -1718,7 +1730,7 @@
 	top: 0;
 	width: 100%;
 	text-align: 12px;
-	z-index: 100;
+	z-index: 999;
 }
 #nav-left>div{
 	width: 1207px;

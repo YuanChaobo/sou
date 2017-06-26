@@ -200,8 +200,8 @@
 }
 
 .swiper-pagination-bullet {
-	width: 8px;
-	height: 8px;
+	width: 16px;
+	height: 16px;
 	display: inline-block;
 	border-radius: 100%;
 	background: #000;

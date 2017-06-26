@@ -3,15 +3,14 @@ $(function(){
 
 	 var mySwiper = new Swiper ('.swiper-container', {
 		    direction: 'horizontal',
-		    // loop: true,
+		    loop : true,
 		    // 点击跳转图片
 		 	paginationClickable :true,
 		    // 如果需要分页器
 		    pagination: '.swiper-pagination', 
 		    // 跳转时间、毫秒   
 		    autoplay:3000,
-		    loop:true,
-		    speed:1500,
+		    speed:1000,
 		    setWrapperSize:true,
 		    // 导航按钮
 		    nextButton: '.swiper-button-next',
