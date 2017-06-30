@@ -543,8 +543,32 @@
 #carousel .swiper-container .hoverblue{
 	display: none;
 }
+#carousel .swiper-container .hoverblue span{
+	display: block;
+	height: 20px;
+	width: 20px;
+}
+#carousel .swiper-container .hoverblue .swiper-button-prevspan{
+	background-image: url("../images/zhanshizuoyou.png") ;
+	background-repeat: no-repeat;
+	background-size: 14px 39px;
+    background-position: 2px -20px;
+	margin-top: 13px;
+	margin-left: 3px;	
+}
+#carousel .swiper-container .hoverblue .swiper-button-nextspan{
+	background-image: url("../images/zhanshiwangyou.png");
+	margin-top: 13px;
+	margin-left: 5px;
+	background-repeat: no-repeat;
+	background-size: 14px 39px;
+    background-position: 2px -20px;
+}
 #carousel:hover .swiper-container .hoverblue{
 	display: block;
+}
+#carousel .swiper-container .hoverblue:hover{
+	background:	rgba(0,0,0,0.5);
 }
 /*?Ʒ??չʾ*/
 #carousel #carousel-position{
@@ -979,7 +1003,7 @@
 	height: 38px;
 	line-height: 36px;
 	border-bottom: 2px solid #0088d3;
-	margin-top: 32px;
+	margin-top: 25px;
 }
 #content .first-nav>span{
 	float: right;

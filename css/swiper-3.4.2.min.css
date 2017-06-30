@@ -132,6 +132,7 @@
 	-moz-background-size: 27px 44px;
 	-webkit-background-size: 27px 44px;
 	background-size: 27px 44px;
+	background:	rgba(211,211,211,0.1);
 	background-position: center;
 	background-repeat: no-repeat
 }
@@ -143,7 +144,6 @@
 }
 
 .swiper-button-prev,.swiper-container-rtl .swiper-button-next {
-	background-image: url("../images/zhanshizuoyou.png");
 	left: 10px;
     background-size: 28px 93px;
     background-position: 0px -48px;
@@ -160,7 +160,6 @@
 }
 
 .swiper-button-next,.swiper-container-rtl .swiper-button-prev {
-	background-image: url("../images/zhanshiwangyou.png");
 	background-size: 28px 93px;
 	background-position: 0px -48px;
 	right: 10px;
@@ -200,8 +199,8 @@
 }
 
 .swiper-pagination-bullet {
-	width: 16px;
-	height: 16px;
+	width: 13px;
+	height: 13px;
 	display: inline-block;
 	border-radius: 100%;
 	background: #000;
